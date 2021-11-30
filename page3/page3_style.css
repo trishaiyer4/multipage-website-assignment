@@ -1,0 +1,53 @@
+/*body background color*/
+body {
+	background-color: #f0d58d;
+}
+
+/*Changing Link Colors*/
+a:link, a:visited {
+  color: white;
+  font-family: sans-serif;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/*Creating flex container for header*/
+.flex-container{
+	display: flex;
+	background-color: #0d4566;
+}
+
+/*The current tab text styling*/
+.blog{
+	font-weight: bold;
+}
+
+/*Styling the flex container for the header*/
+.flex-container > div {
+  margin: 5px;
+  padding: 20px;
+  font-size: 18px;
+  color: white;
+  font-family: sans-serif;
+}
+
+/*Styling the grid container for the image and text*/
+.grid-container{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto auto;
+	margin-top: 40px;
+	width: 50%;
+	margin-left:  auto;
+	margin-right: auto;
+	justify-content: center;
+    align-content: center;
+    grid-auto-flow: row;
+	font-family: sans-serif;
+}
+
+/*Setting the width and height of the images in the grid*/
+.grid-container img{
+	width: 1100px;
+	height: auto;
+}

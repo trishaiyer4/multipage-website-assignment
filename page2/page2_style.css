@@ -1,0 +1,50 @@
+/*body background color*/
+body {
+	background-color: #f0d58d;
+}
+/*Changing Link Colors*/
+a:link, a:visited {
+  color: white;
+  font-family: sans-serif;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/*Creating flex container for header*/
+.flex-container{
+	display: flex;
+	background-color: #0d4566;
+}
+
+/*The current tab text styling*/
+.photography{
+	font-weight: bold;
+}
+
+/*Styling the flex container for the header*/
+.flex-container > div {
+  margin: 5px;
+  padding: 20px;
+  font-size: 18px;
+  color: white;
+  font-family: sans-serif;
+}
+
+/*Styling the grid container for the images*/
+.grid-container{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin-top: 40px;
+	width: 50%;
+	margin-left:  auto;
+	margin-right: auto;
+	justify-content: center;
+    align-content: center;
+    grid-auto-flow: row;
+}
+
+/*Setting the width and height of the images in the grid*/
+.grid-container img{
+	width:400px;
+	height: 300px;
+}
